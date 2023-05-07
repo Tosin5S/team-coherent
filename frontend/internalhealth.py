@@ -9,7 +9,8 @@ emoji = {
     'anger' : ':angry:',
     'joy' : ':joy:',
     'sadness' : ':sad:',
-    'surprise' : ':open_mouth:'
+    'surprise' : ':open_mouth:',
+    'fear' : 'fear'
 }
 
 # Set page title
