@@ -10,7 +10,7 @@ emoji = {
     'joy' : ':joy:',
     'sadness' : ':sad:',
     'surprise' : ':open_mouth:',
-    'fear' : 'fear'
+    'fear' : ':fear:'
 }
 
 # Set page title
@@ -34,4 +34,4 @@ if st.button("Generate reply"):
             st.bar_chart(health.plotter(user_input))
         with col2:
             st.subheader('Emotion')
-            st.write(f'This person currently has a feeling {emotion} {emoji.get(emotion)}')
+            st.write(f'This person currently has a feeling of {emotion} {emoji.get(emotion)}')
