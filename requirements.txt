@@ -44,7 +44,7 @@ dnspython==1.16.0
 entrypoints==0.3
 et-xmlfile==1.1.0
 Fabric3==1.14.post1
-Flask==2.2.3
+Flask==2.2.5
 Flask-Celery-Helper==1.1.0
 Flask-Cors==3.0.10
 Flask-Migrate==4.0.4
