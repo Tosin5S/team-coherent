@@ -113,7 +113,7 @@ Pygments==2.15.1
 PyGObject==3.36.0
 PyICU==2.4.2
 pyinotify==0.9.6
-PyJWT==1.7.1
+PyJWT==2.4.0
 pymacaroons==0.13.0
 pymongo==4.3.3
 Pympler==1.0.1
