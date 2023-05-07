@@ -13,7 +13,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Tosin5S/team-coherent">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/46765590/236674700-1caa1c7e-e82f-465d-a3d7-0cc100569de5.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Inner Health: Combating Mental Health Challenges with Social Media
@@ -61,8 +61,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+(![Screenshot_20230507-105216](https://user-images.githubusercontent.com/46765590/236673820-5124c356-1eb6-4184-84f5-3680fcb8aa37.png))
 
 ### Built With
 
@@ -80,6 +79,7 @@ To get a local copy up and running follow these simple steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 
+- python 3
 - pip
   ```sh
 
@@ -133,9 +133,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
 
-- []()
-- []()
-- []()
+- [hallelx2 - Halleluyah](https://github.com/hallelx2)
+- [Timadey - Timothy Adeleke ](https://github.com/Timadey)
+- [Tosin5S - Qudus Tosin Aileru](https://github.com/Tosin5S)
 
 > Made with 💙 by Team Coherent
 
