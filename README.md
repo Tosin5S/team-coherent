@@ -65,9 +65,9 @@
 
 ### Built With
 
-- []()
-- []()
-- []()
+- [Cohere](https://cohere.com/) 
+- [Streamlit](https://streamlit.io/)
+- [Python](https://www.python.org/)
 
 <!-- GETTING STARTED -->
 
