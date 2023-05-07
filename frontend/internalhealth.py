@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import frontend as st
+import streamlit as st
 
 st.title("Team Coherent")
 text_tab, file_tab, web_tab = st.tabs(['Text', 'File', 'Web'])
