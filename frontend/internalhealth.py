@@ -1,16 +1,36 @@
 #!/usr/bin/env python3
-import frontend as st
+# import streamlit as st
 
-st.title("Team Coherent")
-text_tab, file_tab, web_tab = st.tabs(['Text', 'File', 'Web'])
-with text_tab:
-    st.text('Enter the user text to analyse')
-    text_input = st.text_area('Text to analyse')
-with file_tab:
-    st.text('Upload a file containing the posts to analyse')
-    file_input = st.file_uploader('Upload file')
-with web_tab:
-    st.text('You can also provide a social media feed to analyse a user newsfeed')
-    link_to_feed = st.text_input('Enter link to social media feed', placeholder='https://twitter.com/timadey/post/12345')
+import streamlit as st
+from backend import cohere_emotional_analysis as health
 
-emotion = st.button('Get emotion ')
+emoji = {
+    'love' : ':hearts:',
+    'anger' : ':angry:',
+    'joy' : ':joy:',
+    'sadness' : ':sad:',
+    'surprise' : ':open_mouth:'
+}
+
+# Set page title
+st.set_page_config(page_title="Internal Health", page_icon=":bar_chart:")
+
+# Set page layout
+st.markdown("<h1 style='text-align: center;'>Internal Health</h1>", unsafe_allow_html=True)
+
+# Create user input section
+user_input = st.text_area("Enter your the user post:")
+
+if st.button("Generate reply"):
+    with st.spinner('Analysing post...'):
+        emotion = health.classify_emotion(user_input)
+
+        st.subheader('Suggested Reply')
+        st.write(health.write_post(user_input))
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader('Emotional Level')
+            st.bar_chart(health.plotter(user_input))
+        with col2:
+            st.subheader('Emotion')
+            st.write(f'This person currently has a feeling {emotion} {emoji.get(emotion)}')
