@@ -140,7 +140,7 @@ PyYAML==5.3.1
 random-username==1.0.2
 redis==4.5.1
 reportlab==3.5.34
-requests==2.22.0
+requests==2.31.0
 requests-file==1.4.3
 requests-unixsocket==0.2.0
 rich==13.3.5
