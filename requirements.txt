@@ -31,7 +31,7 @@ cohere==4.3.1
 colorama==0.4.3
 command-not-found==0.3
 configobj==5.0.6
-cryptography==2.8
+cryptography==41.0.0
 cupshelpers==1.0
 dbus-python==1.2.16
 decorator==5.1.1
